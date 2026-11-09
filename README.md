@@ -149,4 +149,6 @@ The result is `build64/dlls/ncrypt/x86_64-windows/ncrypt.dll`. It carries Wine's
 
 ## License
 
-The patch modifies Wine, which is licensed under the GNU LGPL v2.1 or later. The patch and the prebuilt DLL are distributed under the same license.
+The patch modifies Wine, which is licensed under the GNU LGPL v2.1 or later. The patch and the prebuilt DLL are distributed under the same license; see [`LICENSE`](LICENSE).
+
+**Corresponding source:** `ncrypt.dll` was built from Wine at the `wine-11.0` tag (https://gitlab.winehq.org/wine/wine/-/tree/wine-11.0) with `ncrypt-persisted-keys.patch` applied, using the steps in [Building from source](#building-from-source).
