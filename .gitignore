@@ -1,0 +1,8 @@
+# Ignore everything by default (Wine source, build output, etc.)
+/*
+
+# ...except the files that make up the release
+!/.gitignore
+!/README.md
+!/ncrypt-persisted-keys.patch
+!/ncrypt.dll
